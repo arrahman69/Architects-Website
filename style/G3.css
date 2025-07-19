@@ -98,6 +98,23 @@ margin-right:30px;
 .teacher-d{
     color: #424242;
 }
+.enjoy{
+    gap: 140px; 
+}
+.fi-card{
+      padding: 30px;
+      border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06) ;
+    margin-bottom:20px ;
+
+}
+.fi-card .fi-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin:0px;
+    margin-bottom:0px;
+
+}
 .facts-container{
     display:grid; 
     grid-template-columns: repeat(4 ,1fr);
@@ -125,12 +142,17 @@ margin-top: 10px;
 .fact-description{
     max-width: 540;
 }
+#line{
+  border-left:5px solid  #FF900E;  
+  padding-left: 20px;
+}
     
 #part1{
     font-weight: 470px;
 }
 #part3{
     color:#FF900E ;
+    padding-left: 21px;
 }
 .img-cl{
     width: 100%;
